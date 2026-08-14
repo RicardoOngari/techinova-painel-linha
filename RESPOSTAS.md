@@ -1,24 +1,23 @@
 # Respostas do LAB 01
 
-Nome:
-Matricula:
-Dupla (M2 em diante):
+Nome:Ricardo Ongari Rodrigues
+Dupla (M2 em diante):Isabella Macedo Kawecki
 
 ---
 
 ## M2 - Quem quebrou o painel
 
-**Hash curto do commit que introduziu o erro:**
+**Hash curto do commit que introduziu o erro:** 01ef93b
 
-**Autor:**
+**Autor:** Tarcisio Melo
 
-**Data:**
+**Data:** 2026-06-15
 
 **Linha alterada (antes e depois):**
 
 ```
-antes:
-depois:
+antes: return (leitura - 32) * 5 / 9;
+depois: return leitura * 9 / 5 + 32
 ```
 
 ---

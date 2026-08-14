@@ -24,10 +24,25 @@ depois: return leitura * 9 / 5 + 32
 
 ## M3 - O segredo vazado
 
-**O que voce esperava ver no `git status` e o que apareceu:**
+**O que voce esperava ver no `git status` e o que apareceu:** Eu espera ver o status ignorando o credenciais.env. 
+
+apareceu:
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    config/credenciais.env
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
 
 **Depois do push, alguem que clonar o repositorio ainda consegue ler a chave?
 Responda em duas linhas, explicando o motivo:**
+
+Antes não tinha dado certo pois o arquivo ja tinha sido publicado, e o gitignore não deleta ele.
+Agora com o comando  "git rm --cached config/credenciais.env" ele para de rastrear o arquivo.
 
 ---
 

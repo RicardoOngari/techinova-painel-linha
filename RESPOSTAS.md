@@ -48,13 +48,20 @@ Agora com o comando  "git rm --cached config/credenciais.env" ele para de rastre
 
 ## M4 - Colisao
 
-**O que significavam os marcadores que apareceram dentro do arquivo:**
+**O que significavam os marcadores que apareceram dentro do arquivo:** 
+Significam 
 
-- `<<<<<<<` :
-- `=======` :
-- `>>>>>>>` :
+- `<<<<<<<` : Significa o codigo que esta atualmente na branch atual
+- `=======` : Separa os dois codigos
+- `>>>>>>>` : Significa o codigo que esta tentando entrar vindo de outra branch
 
 **Qual pedaco veio de quem, e qual titulo voces decidiram manter:**
+
+<<<<< - veio do painel A
+===== - foi para dividir os codigos
+>>>>> - veio do painel B
+
+A gente decidiu manter "Painel da linha muito legal"
 
 ---
 
